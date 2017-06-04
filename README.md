@@ -3,13 +3,9 @@
 ## Install
 
 ```
-$ npm install module-templateES6 --save
+$ npm install module-template-ES6 --save
 ```
 
-## How to use
-Orifinal version was published bu 
-Open sourcecode, take a look and start coding...
-https://github.com/anvk/babel-npm-module-example
 
 ## GULP or NPM commands?
 
@@ -37,26 +33,9 @@ $ npm run build
 $ npm test
 ```
 
-### GULP
-
-For those who needs to run extra scripts and do other complicated tasks upon builds you can use [gulp-commands](https://github.com/anvk/babel-npm-module-example/tree/gulp-commands) branch. Or clean `scripts` object in `package.json` as well as remove the following npm modules from the project:
-
- - rimraf
- - babel-cli
-
-#### Using GULP command
-
-```
-$ node_modules/gulp/bin/gulp.js
-```
-
 ## Linting?
 
 I'm using [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) for this project with my few custom modifications. You can read more on the [Airbnb JavaScript Style Guide here](https://github.com/airbnb/javascript)
-
-## Important!
-
-I commented out `dist/` and `test-dist` folders in my ignore file on purpose to demonstrate how built files will look like. In a real project, most likely, you do not want to push those `dist folders` to your repo. If you do, you will constantly see changes in dist folders during your merges/code reviews which can be very annoying.
 
 ## License
 
