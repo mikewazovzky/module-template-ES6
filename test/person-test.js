@@ -1,4 +1,5 @@
 /* global it, describe, before, after */
+
 import { expect } from 'chai';
 import Person from '../dist/person';
 

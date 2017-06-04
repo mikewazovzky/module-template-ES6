@@ -16,12 +16,6 @@ $ npm run build
 $ npm test
 ```
 
-## Linting?
-
-[eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) is used for the 
-this project with my few custom modifications. 
-You can read more on the [Airbnb JavaScript Style Guide here](https://github.com/airbnb/javascript)
-
 ## License
 
 MIT license; see [LICENSE](./LICENSE).
